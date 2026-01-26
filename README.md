@@ -23,6 +23,7 @@ The primary objectives of this repository are to:
   * Incremental logic design and refactoring
   * Business-driven transformations
 * Build a **strong conceptual foundation** before moving on to fully independent projects
+* The strong point is the '! Walkthrough --' page there I docummented the process step by step how the final result was reached. 
 
 This repository intentionally exposes the **learning process**, including intermediate steps, exploratory queries, and evolving logic.
 
