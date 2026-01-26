@@ -1,220 +1,168 @@
-📘 Walkthrough — Data Warehouse Project (Learning Process)
-🎯 Purpose of This Walkthrough
+# 📘 Project Walkthrough — Data Warehouse Build (Learning-Oriented)
 
-This Walkthrough section is intentionally designed to show my learning process step by step, not just the final polished SQL scripts.
+## 📌 Purpose of This Walkthrough
 
-Instead of only presenting “clean” end results, this section focuses on:
+This **Walkthrough section** exists to document **how the project was built step by step**, not just the final result.
 
-🧠 How I thought about the problem
+The main goal is to:
+- Show **my learning process** while following a structured 30-hour SQL & Data Warehousing course
+- Present **scripts with heavy comments**, reasoning, and intermediate decisions
+- Demonstrate **linear execution**, where each step builds context for the next
+- Make the project understandable for **recruiters, reviewers, and learners**
 
-🛠️ How scripts evolved over time
+> ⚠️ **Important Note**  
+> This walkthrough focuses on **process and understanding**, so you may find:
+> - More scripts than strictly required
+> - Intermediate or exploratory files
+> - Extra comments compared to a production repository  
+>
+> The **final, clean scripts** also exist elsewhere in the repository.
 
-📝 Why certain decisions were made
+---
 
-💬 Heavy inline comments for clarity and learning context
+## 🧭 How to Navigate This Walkthrough (Start Here)
 
-Many scripts here are more verbose and more commented than production-ready code on purpose — the goal is understanding, not brevity.
+This walkthrough is meant to be followed **top to bottom, in order**.  
+Each folder depends conceptually on the previous one.
 
-⚠️ Important Note (Please Read)
+### ✅ Recommended Reading Order
 
-The ! Walkthrough -- folder is documentation- and learning-focused
+1. **Introduction**
+2. **1st – Requirements Analysis**
+3. **2nd – Design Data Architecture**
+4. **3rd – Project Initialization**
+5. **4th – Build Bronze Layer**
+6. **5th – Build Silver Layer**
+7. **6th – Build Gold Layer**
 
-You may find additional or more optimized scripts in folders outside this walkthrough (e.g. /Scripts, /Tests)
+---
 
-Those external scripts represent final or cleaner versions, while this walkthrough shows how I got there
+## 📂 Walkthrough Folder Structure & What Each Step Shows
 
-👉 Think of this folder as a learning journal + technical narrative, not just a code dump.
+### 📁 Introduction
+**Purpose:** Set foundational understanding before touching SQL  
+Includes:
+- What a Data Warehouse is
+- Core DW concepts
+- High-level visuals to align thinking
 
-🧭 How to Navigate This Walkthrough (Start Here)
+Best for:  
+👉 Non-technical reviewers and first-time readers
 
-This walkthrough follows a strict linear execution order.
-Each step builds context and dependency for the next one.
+---
 
-If you are a recruiter or reviewer, follow this order 👇
+### 📁 1st – Requirements Analysis
+**Purpose:** Translate business needs into data requirements  
+Focus areas:
+- Business context
+- Data ownership
+- Scope definition
+- Analytical goals
 
-📂 Walkthrough Index (Recommended Reading Order)
-0️⃣ Introduction
+This step answers **_why_** the warehouse exists.
 
-📁 Introduction/
+---
 
-Start here to understand:
+### 📁 2nd – Design Data Architecture
+**Purpose:** Decide *how* the data warehouse will be structured  
+Includes:
+- Data modeling decisions
+- Layered architecture (Bronze / Silver / Gold)
+- Integration approach
 
-What a Data Warehouse is
+This step bridges **business needs → technical design**.
 
-Core concepts used in this project
+---
 
-High-level mental model before touching SQL
+### 📁 3rd – Project Initialization
+**Purpose:** Prepare the project for structured development  
+Includes:
+- Naming conventions
+- Folder organization
+- Environment assumptions
+- SQL Server setup logic
 
-Files include:
+This ensures the project is **scalable and readable**.
 
-Data Warehouse concepts
+---
 
-Visual explanations
+### 📁 4th – Build Bronze Layer
+**Purpose:** Ingest raw data with minimal transformation  
+Includes:
+- Source system analysis
+- Data ingestion scripts
+- Completeness & schema checks
+- Visual data flow diagrams
 
-Text + markdown versions
+Bronze layer focuses on:
+- **Data fidelity**
+- **Traceability**
+- **No business logic**
 
-1️⃣ Requirements Analysis
+---
 
-📁 1st - Requirements Analysis/
-
-Focus:
-
-Business context
-
-Ownership of data
-
-What problem the warehouse is solving
-
-What the business expects from analytics
-
-This step answers “WHY are we building this?”
-
-2️⃣ Design Data Architecture
-
-📁 2nd - Design Data Architecture/
-
-Focus:
-
-High-level architecture
-
-Source systems (CRM / ERP)
-
-Data flow direction
-
-Bronze → Silver → Gold design choice
-
-This step answers “HOW should the system look?”
-
-3️⃣ Project Initialization
-
-📁 3rd - Project Initialization/
-
-Focus:
-
-Environment setup
-
-Folder structure
-
-Naming conventions
-
-Initial project scaffolding
-
-This step answers “HOW do we start clean?”
-
-4️⃣ Build Bronze Layer
-
-📁 4th - Build Bronze Layer/
-
-Focus:
-
-Raw ingestion from source systems
-
-Minimal transformation
-
-Preserving source fidelity
+### 📁 5th – Build Silver Layer
+**Purpose:** Clean, standardize, and integrate data  
+Key characteristics:
+- Scripts are **organized table by table**
+- Numbering reflects **execution and learning order**
+- Each transformation is explained in context
 
 Includes:
+- Data quality handling
+- Integration logic
+- Business-ready structures (but not analytical yet)
 
-Data flow diagrams
+This is where **most reasoning and complexity lives**.
 
-Source analysis
+---
 
-Scripts for ingestion
+### 📁 6th – Build Gold Layer
+**Purpose:** Create analytics-ready models  
+Includes:
+- Dimension tables
+- Fact tables
+- Star schema decisions
+- Business-friendly structures
 
-Validation mindset
+This layer answers:
+> “Can analysts and BI tools use this immediately?”
 
-This step answers “HOW do we safely land raw data?”
+---
 
-5️⃣ Build Silver Layer
+## ⚠️ About Other Project Folders
 
-📁 5th - Build Silver Layer/
+Outside of `! Walkthrough --`, you may also see:
+- `/Scripts`
+- `/Docs`
+- `/Tests`
+- `/Datasets`
 
-This is the most detailed learning section.
+These folders may contain:
+- Finalized or cleaner versions of scripts
+- Supporting documentation
+- Validation or test logic
 
-📁 Scripts/ is organized table by table, in execution order:
+> The **Walkthrough folder is intentionally verbose** and learning-focused.
 
-1st table silver.crm_cust_info
+---
 
-2nd table silver.crm_prd_info
+## 🎯 What This Walkthrough Demonstrates
 
-3rd table silver.sls_sales_details
+- Ability to **think like a Data / Analytics Engineer**
+- Strong emphasis on **decision-making**
+- Understanding of **why**, not just **how**
+- Comfort with documenting and explaining technical work
+- A structured, end-to-end Data Warehouse build
 
-4th table silver.erp_cust_az12
+---
 
-5th table silver.erp_loc_a101
+## 📌 Final Note
 
-6th table silver.erp_px_cat_g1v2
+This walkthrough represents a **learning milestone**, not a living production system.  
+Once completed, it is preserved as **proof of understanding and execution**, and not continuously updated.
 
-Why this structure?
+---
 
-Each script depends on understanding from the previous one
-
-Each folder explains:
-
-Business logic
-
-Transformations
-
-Edge cases
-
-Data quality checks
-
-Also included:
-
-DDL scripts
-
-Load procedures
-
-Data flow & transformation visuals
-
-This step answers “HOW do we clean, standardize, and prepare data?”
-
-6️⃣ Build Gold Layer
-
-📁 6th - Built Gold Layer/
-
-Focus:
-
-Analytics-ready models
-
-Facts vs Dimensions
-
-Star schema logic
-
-Business consumption layer
-
-Scripts are grouped by:
-
-Dimensions
-
-Facts
-
-This step answers “HOW do we make data usable for BI & analytics?”
-
-🧠 Why This Walkthrough Matters
-
-This project is not only about SQL syntax.
-
-It demonstrates:
-
-Data engineering thinking
-
-Dependency awareness
-
-Documentation discipline
-
-Ability to explain technical work clearly
-
-Real-world warehouse design patterns
-
-The walkthrough shows how I learned, not just what I built.
-
-📌 Final Tip for Reviewers
-
-If you want:
-
-Final scripts → check /Scripts
-
-Learning process & reasoning → start in ! Walkthrough --
-
-Architecture understanding → diagrams + walkthrough folders
+📬 If you are a recruiter or reviewer:  
+Start with the **Introduction**, then follow the numbered folders in order for the best experience.
