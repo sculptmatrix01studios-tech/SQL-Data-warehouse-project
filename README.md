@@ -31,7 +31,8 @@ This repository intentionally exposes the **learning process**, including interm
 
 ## Attribution & Credits
 
-This project is based on the learning material from **Baraah’s Analytics Engineering course**.
+This project is based on the learning material from **Baraah’s 30 Hours SQL course**.
+https://www.youtube.com/watch?v=SSKVgrwhzus&t=18582s
 
 * Full credit for the **course structure, teaching methodology, and conceptual explanations** goes to Baraah.
 * This repository is my **personal interpretation and application** of the knowledge gained from the course.
