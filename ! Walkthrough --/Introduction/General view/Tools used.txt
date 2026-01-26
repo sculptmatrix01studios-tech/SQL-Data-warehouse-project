@@ -1,0 +1,11 @@
+For this Data Base project the tools that I will use are:
+
+CSV files - Here is where all the raw data is stored.
+
+Microsoft SQL Server - Here is where I will build the database and write the Queries
+
+GitHub - Where I will document and report everything
+
+Draw.io - This is the program that I will use for the data models, visuals and diagrams.
+
+Notion - Used for the mapping of this process of build. (A CHECKLIST) 

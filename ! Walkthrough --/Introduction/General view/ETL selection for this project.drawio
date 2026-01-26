@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="Page-1" id="z4dEpIjG1ZSQyiYKgGxk">
+    <mxGraphModel dx="2351" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fYvst3grlElFxXfE8UWB-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" value="&lt;font style=&quot;font-size: 47px;&quot;&gt;&lt;font style=&quot;color: rgb(51, 255, 51);&quot;&gt;E&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 51, 51);&quot;&gt;T&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 127, 255);&quot;&gt;L&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="90" width="137.5" x="356" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;&lt;i&gt;ETL processed used for this Project&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="390" x="230" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#33FF33;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Method - Pull Extraction&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="-140" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#33FF33;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Type - Full Extraction&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="-140" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#33FF33;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Technique - File Parsing&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="-140" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;i&gt;&lt;b&gt;Processing Type&lt;/b&gt; &lt;/i&gt;- Batch proce.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="790" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" value="&lt;font style=&quot;font-size: 13.5px;&quot;&gt;&lt;b&gt;&lt;i&gt;Methods &lt;/i&gt;&lt;/b&gt;- Full Load - Truncate&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13.5px;&quot;&gt;&amp;amp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 13.5px;&quot;&gt;Insert&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="790" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#007FFF;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;&lt;i&gt;SCD 1&lt;/i&gt;&lt;/b&gt; - Overwrite&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="790" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF3333;" value="&lt;b&gt;&lt;i&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;All the Transformations&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="325.5" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-10" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#33FF33;" target="fYvst3grlElFxXfE8UWB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="490" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-11" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#33FF33;" target="fYvst3grlElFxXfE8UWB-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="355" y="455" as="sourcePoint" />
+            <mxPoint x="70" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-12" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#33FF33;" target="fYvst3grlElFxXfE8UWB-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="490" as="sourcePoint" />
+            <mxPoint x="460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-13" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#FF3333;" target="fYvst3grlElFxXfE8UWB-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="355" y="455" as="sourcePoint" />
+            <mxPoint x="70" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-14" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#007FFF;" target="fYvst3grlElFxXfE8UWB-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="600" y="410" as="sourcePoint" />
+            <mxPoint x="601" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-15" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#007FFF;" target="fYvst3grlElFxXfE8UWB-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="610" y="420" as="sourcePoint" />
+            <mxPoint x="611" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-16" edge="1" parent="1" source="fYvst3grlElFxXfE8UWB-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#007FFF;" target="fYvst3grlElFxXfE8UWB-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="620" y="430" as="sourcePoint" />
+            <mxPoint x="621" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fYvst3grlElFxXfE8UWB-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;i style=&quot;font-size: 23px; font-weight: bold;&quot;&gt;Note: &lt;/i&gt;&lt;i style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;To understand this you must open the ETL .png file so you can have a better picture of what this is about&lt;/font&gt;&lt;/i&gt;" vertex="1">
+          <mxGeometry height="100" width="470" x="-140" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
