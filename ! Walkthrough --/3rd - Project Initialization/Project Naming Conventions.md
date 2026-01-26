@@ -78,4 +78,5 @@ This document outlines the naming conventions used for schemas, tables, views, c
   - `<layer>`: Represents the layer being loaded, such as `bronze`, `silver`, or `gold`.
   - Example: 
     - `load_bronze` → Stored procedure for loading data into the Bronze layer.
+
     - `load_silver` → Stored procedure for loading data into the Silver layer.
